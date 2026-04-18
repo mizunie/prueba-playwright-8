@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# playwright
+playwright-report/
+test-results/
+blob-report/
+report/
+
+# logs
+*.log
+
+# env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

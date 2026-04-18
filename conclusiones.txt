@@ -1,0 +1,13 @@
+# Conclusiones
+
+Durante la ejecución del ejercicio se identificaron los siguientes hallazgos:
+
+1. El sitio bajo prueba presenta un problema de configuración de protocolo, ya que opera bajo HTTP, pero el botón de "Checkout" redirecciona a HTTPS.
+
+2. Esta redirección genera conflictos relacionados con certificados, lo que impide la correcta navegación automatizada utilizando el flujo natural de la aplicación.
+
+3. Para evitar este inconveniente, se optó por forzar la navegación directa a la URL de checkout, omitiendo el uso del botón correspondiente.
+
+4. Fuera de este comportamiento, no se identificaron otros problemas relevantes en la funcionalidad evaluada.
+
+En general, la automatización se implementó correctamente considerando las limitaciones del entorno de prueba.
